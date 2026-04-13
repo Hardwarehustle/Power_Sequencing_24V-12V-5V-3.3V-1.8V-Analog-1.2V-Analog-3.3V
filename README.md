@@ -21,10 +21,10 @@ The design covers:
 ### PCB Layout
 ![PCB Layout](PCB_Layout.jpg)
 
-### 3D Board View
+### 3D Board Top View
 ![3D Top View](top_view.jpg)
 
-### 3D Board View
+### 3D Board Bottom View
 ![3D Bottom View](top_view.jpg)
 ---
 
