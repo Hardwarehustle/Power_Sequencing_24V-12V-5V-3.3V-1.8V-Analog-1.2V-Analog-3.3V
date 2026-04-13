@@ -1,12 +1,5 @@
 # ⚡ Power Sequencing Design — Multi-Rail DC Power Distribution Board
 
-> **Designed by:** Janardhan BV  
-> **Tool:** EasyEDA  
-> **Revision:** 1.0  
-> **Date:** April 2025  
-
----
-
 ## 📌 Project Overview
 
 This project presents a **complete multi-rail power sequencing board** that converts **250V AC mains** down to a cascaded hierarchy of DC voltage rails — from 24V down to 1.2V — for powering mixed-signal embedded systems. The board supports **SoC/MCU cores, analog front-ends, relay/driver circuits**, and precision ADC/DAC references, all with controlled power-up sequencing via MCU GPIO enable pins.
