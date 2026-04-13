@@ -16,16 +16,17 @@ The design covers:
 ## 🖼️ Project Visuals
 
 ### Schematic
-![Schematic](SCH.jpg)
+![Schematic](Images/SCH.png)
 
 ### PCB Layout
-![PCB Layout](PCB_Layout.jpg)
+![PCB Layout](Images/PCB_Layout.png)
 
 ### 3D Board Top View
-![3D Top View](top_view.jpg)
+![3D Top View](Images/TopView.png)
 
 ### 3D Board Bottom View
-![3D Bottom View](top_view.jpg)
+![3D Bottom View](Images/BottomView.png)
+
 ---
 
 ## 🏗️ Power Architecture
@@ -159,22 +160,6 @@ Power sequencing is controlled by an MCU via **GPIO-driven enable pins** on each
 
 ---
 
-## 📁 Repository Structure
-
-```
-Power-Sequencing-Board/
-├── Schematic/
-│   └── SCH.jpg                     # Full schematic capture
-├── PCB/
-│   ├── PCB_Layout.jpg              # 2D layout (Altium/EasyEDA export)
-│   └── top_view.jpg                # 3D rendered board view
-├── Docs/
-│   └── Assignment-upliance.ai-PPT.pptx   # Design presentation
-└── README.md
-```
-
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -201,7 +186,4 @@ This project is open for educational and personal use.
 
 **Janardhan BV**  
 Embedded Hardware Engineer | PCB Design | Power Electronics  
-📍 Bengaluru, India
-
----
-*Designed as part of the upliance.ai Hardware Engineering Assignment*
+📍 Bengaluru, India.
