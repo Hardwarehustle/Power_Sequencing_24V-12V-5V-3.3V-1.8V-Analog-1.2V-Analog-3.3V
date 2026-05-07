@@ -1,6 +1,6 @@
-# ⚡ Power Sequencing Design — Multi-Rail DC Power Distribution Board
+# Power Sequencing Design — Multi-Rail DC Power Distribution Board
 
-## 📌 Project Overview
+## Project Overview
 
 This project presents a **complete multi-rail power sequencing board** that converts **250V AC mains** down to a cascaded hierarchy of DC voltage rails — from 24V down to 1.2V — for powering mixed-signal embedded systems. The board supports **SoC/MCU cores, analog front-ends, relay/driver circuits**, and precision ADC/DAC references, all with controlled power-up sequencing via MCU GPIO enable pins.
 
@@ -13,7 +13,7 @@ The design covers:
 
 ---
 
-## 🖼️ Project Visuals
+## Project Visuals
 
 ### Schematic
 ![Schematic](Images/SCH.png)
@@ -29,7 +29,7 @@ The design covers:
 
 ---
 
-## 🏗️ Power Architecture
+## Power Architecture
 
 The board implements a **top-down cascaded power tree**:
 
@@ -49,7 +49,7 @@ The board implements a **top-down cascaded power tree**:
 
 ---
 
-## 📊 Load Requirements
+## Load Requirements
 
 | Voltage Rail | Load Current | Purpose |
 |:---:|:---:|:---|
@@ -62,7 +62,7 @@ The board implements a **top-down cascaded power tree**:
 
 ---
 
-## 🔩 Component Selection
+## Component Selection
 
 | Voltage Domain | Load | Type | IC | Why Selected |
 |:---|:---:|:---:|:---|:---|
@@ -76,7 +76,7 @@ The board implements a **top-down cascaded power tree**:
 
 ---
 
-## 🔋 Role of Each Power Domain
+## Role of Each Power Domain
 
 ### 24V Rail
 - Acts as the **intermediate supply** from AC mains via SMPS
@@ -108,7 +108,7 @@ The board implements a **top-down cascaded power tree**:
 
 ---
 
-## 🎛️ MCU-Based Power Control
+## MCU-Based Power Control
 
 Power sequencing is controlled by an MCU via **GPIO-driven enable pins** on each regulator stage:
 
@@ -124,7 +124,7 @@ Power sequencing is controlled by an MCU via **GPIO-driven enable pins** on each
 
 ---
 
-## 📐 PCB Design Highlights
+## PCB Design Highlights
 
 - **Tool:** EasyEDA (Schematic + Layout)
 - **Layer stack:** 2-layer PCB (Red = Top copper, Blue = Bottom copper)
@@ -136,7 +136,7 @@ Power sequencing is controlled by an MCU via **GPIO-driven enable pins** on each
 
 ---
 
-## 🧪 Verification & Validation Plan
+## Verification & Validation Plan
 
 ### Phase 1 — LTSpice Simulation
 
@@ -160,7 +160,7 @@ Power sequencing is controlled by an MCU via **GPIO-driven enable pins** on each
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - **EasyEDA** (free, browser-based EDA tool) or compatible Gerber viewer
@@ -175,15 +175,15 @@ Power sequencing is controlled by an MCU via **GPIO-driven enable pins** on each
 
 ---
 
-## 📄 License
+## License
 
 This project is open for educational and personal use.  
 © 2025 Janardhan BV — All rights reserved.
 
 ---
 
-## 🙋 Author
+## Author
 
 **Janardhan BV**  
 Embedded Hardware Engineer | PCB Design | Power Electronics  
-📍 Bengaluru, India.
+Bengaluru, India.
